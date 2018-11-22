@@ -1,0 +1,44 @@
+[rhui-rhel-7-server-rhui-extras-rpms]
+name=Red Hat Enterprise Linux 7 Server - Extras from RHUI (RPMs)
+mirrorlist=https://amx-rh-cds1-pr.cloudtelmex.local/pulp/mirror//content/dist/rhel/rhui/server/7/7Server/$basearch/extras/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=0
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-rh-common-rpms]
+name=Red Hat Enterprise Linux 7 Server - RH Common from RHUI (RPMs)
+mirrorlist=https://amx-rh-cds1-pr.cloudtelmex.local/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/rh-common/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=0
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-rpms]
+name=Red Hat Enterprise Linux 7 Server from RHUI (RPMs)
+mirrorlist=https://amx-rh-cds1-pr.cloudtelmex.local/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=0
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-supplementary-rpms]
+name=Red Hat Enterprise Linux 7 Server - Supplementary from RHUI (RPMs)
+mirrorlist=https://amx-rh-cds1-pr.cloudtelmex.local/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/supplementary/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=0
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
